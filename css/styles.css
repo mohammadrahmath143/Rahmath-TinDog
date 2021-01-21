@@ -1,0 +1,182 @@
+#title {
+  background-color: #ff4c68;
+}
+
+.navbar-brand {
+  font-family: Montserrat;
+  font-size: 1.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+#main-heading {
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.container-fluid {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.navbar-nav {
+  margin: 0 5% 0 5%;
+}
+
+.navbar {
+  padding-bottom: 10%;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: Montserrat-light;
+}
+
+.iphone-img {
+  width: 50%;
+  transform: rotate(25deg);
+  margin-top:15%;
+  position: absolute;
+}
+
+@media (max-width:1028px) {
+  #main-heading{
+    text-align: center;
+  }
+  .download-button{
+    text-align: center;
+  }
+
+
+  .iphone-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+.download-button {
+  margin:3% ;
+}
+
+/* .iphone{
+  padding-left: 5%;
+} */
+/* features section */
+#features {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.circle {
+  font-size: 250%;
+  color: #ef8172;
+  margin: 5% 0 5% 0;
+}
+
+.bullseye {
+  font-size: 250%;
+  color: #ef8172;
+  margin: 5% 0 5% 0;
+}
+
+.heart {
+  font-size: 250%;
+  color: #ef8172;
+  margin: 5% 0 5% 0;
+}
+
+.features-description {
+  font-family: Montserrat-light;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  color: #8f8f8f;
+}
+
+.heart:hover {
+  color: #ff4c68;
+}
+
+.bullseye:hover {
+  color: #ff4c68;
+}
+
+.circle:hover {
+  color: #ff4c68;
+}
+
+/* Testimonials section */
+#testimonials {
+  background-color: #ef8172;
+  text-align: center;
+}
+
+.testimonial-heading {
+  font-size: 3rem;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+  padding: 7% 15%;
+}
+
+.dog-img {
+  margin: 5% 0;
+  width: 15%;
+  border-radius: 100%;
+}
+
+/* press setion */
+#press {
+  padding: 5% 5%;
+  background-color: #ef8172;
+  text-align: center;
+}
+
+.press-img {
+  width: 20%;
+}
+
+/* signup section */
+#pricing {
+  margin: 7% 15%;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  width: 80%;
+}
+
+/* section cta */
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 7% 15%;
+}
+
+.cta-heading {
+  font-size: 3.5rem;
+  font-family: 'Montserrat', sans-serif;
+  padding: 3% 0;
+  font-weight: bold;
+}
+
+/* section footer */
+#footer {
+  background-color: #fff;
+  padding: 3% 15%;
+  text-align: center;
+}
+
+.social-media {
+  width: 25%;
+}
+
+.footer-navbar {
+  padding-bottom: 1%;
+}
